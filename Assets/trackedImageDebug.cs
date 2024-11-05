@@ -24,7 +24,7 @@ public class ImageTracker : MonoBehaviour
         {
             Debug.Log("Image tracked: " +
             trackedImage.referenceImage.name);
-            trackedImage.transform.localScale = Vector3.one * 2;
+            trackedImage.transform.localScale = Vector3.one;
         }
     }
 }
